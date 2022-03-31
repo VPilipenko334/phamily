@@ -1,0 +1,17 @@
+<p style="color: yellow"><%= notice %></p>
+
+<section class="todoapp">
+  
+  <header class="header">
+    <%= render "form", task: @task || Task.new %>
+  </header>
+  
+  <section class="main">
+    <ul class="todo-list">
+      <% @tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </section>
+
+</section>

@@ -1,0 +1,23 @@
+<%= form_with(model: task) do |form| %>
+
+  <div>
+    <%= form.text_field :title, class: 'new-todo', 
+      placeholder: 'What needs to be done?', 
+      autofocus: true, autocomplete: 'off' %>
+  </div>
+
+  <div>
+    <%= form.text_field :due_date, class: 'new-todo', 
+      type: 'date', 
+      autofocus: true, autocomplete: 'off' %>
+  </div>
+
+  <% if task.errors.any? %>
+    <ul style="color: red">
+      <% task.errors.each do |error| %>
+        <li><%= error.full_message %></li>
+      <% end %>
+    </ul>
+  <% end %>
+    
+<% end %>

@@ -1,0 +1,14 @@
+<li id="<%= dom_id task %>" class="todo <%= 'completed' if task.completed %>">
+
+    <!-- Complete button -->
+    <%= form_with(model: task, method: "post") do |f| %>
+      <%= f.check_box :completed, onchange: "this.form.submit()" %>
+      <%= f.text_field :title, class: "title edit", onchange: "this.form.submit()" %>
+    <% end %>
+
+    <!-- Delete button -->
+    <form action="<%= task_path(task) + '/destroy' %>" method="post">
+      <button type="submit" class="destroy"></button>
+    </form>
+    
+</li>
