@@ -37,12 +37,16 @@ class TasksController < ApplicationController
     end
 
     def set_tasks
-      @tasks = Task.all.order(created_at: :desc)
+      @tasks = Task.all.order(due_date: :asc)
+      @overdue_tasks = @tasks.where('due_date < ?', Date.today)
+      @todays_tasks = @tasks.where('due_date = ?', Date.today)
+      @tomorrows_tasks = @tasks.where('due_date = ?', Date.tomorrow)
+      @later_tasks = @tasks.where('due_date > ?', Date.tomorrow)
     end
 
   
     # Only allow a list of trusted parameters through.
     def task_params
-      params.require(:task).permit(:title, :completed)
+      params.require(:task).permit(:title, :completed, :due_date)
     end
 end

@@ -6,11 +6,16 @@
       autofocus: true, autocomplete: 'off' %>
   </div>
 
-  <div>
+   <div>
     <%= form.text_field :due_date, class: 'new-todo', 
       type: 'date', 
       autofocus: true, autocomplete: 'off' %>
   </div>
+
+  <button> 
+     button 
+  </button>
+
 
   <% if task.errors.any? %>
     <ul style="color: red">

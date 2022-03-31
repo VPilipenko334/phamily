@@ -5,13 +5,45 @@
   <header class="header">
     <%= render "form", task: @task || Task.new %>
   </header>
-  
-  <section class="main">
-    <ul class="todo-list">
-      <% @tasks.each do |task| %>
+
+   <br/>
+
+  <div>
+
+  <h2>Overdue:</h2>
+  <ul class="todo-list">
+      <% @overdue_tasks.each do |overdue_task| %>
+        <%= render overdue_task %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  <h2>Today:</h2>
+  <ul class="todo-list">
+      <% @todays_tasks.each do |task| %>
         <%= render task %>
       <% end %>
     </ul>
-  </section>
+  </div>
+
+  <div>
+  <h2>Tomorrow:</h2>
+  <ul class="todo-list">
+      <% @tomorrows_tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  <h2>At a later date:</h2>
+  <ul class="todo-list">
+      <% @later_tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </div>
+
 
 </section>

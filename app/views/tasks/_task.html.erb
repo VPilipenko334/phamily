@@ -4,6 +4,7 @@
     <%= form_with(model: task, method: "post") do |f| %>
       <%= f.check_box :completed, onchange: "this.form.submit()" %>
       <%= f.text_field :title, class: "title edit", onchange: "this.form.submit()" %>
+      <%= f.text_field :due_date, class: "title edit", onchange: "this.form.submit()" %>
     <% end %>
 
     <!-- Delete button -->
