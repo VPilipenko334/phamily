@@ -6,11 +6,9 @@
     <%= render "form", task: @task || Task.new %>
   </header>
 
-   <br/>
-
   <div>
 
-  <h2>Overdue:</h2>
+  <h2>overdue:</h2>
   <ul class="todo-list">
       <% @overdue_tasks.each do |overdue_task| %>
         <%= render overdue_task %>
@@ -19,7 +17,7 @@
   </div>
 
   <div>
-  <h2>Today:</h2>
+  <h2>today:</h2>
   <ul class="todo-list">
       <% @todays_tasks.each do |task| %>
         <%= render task %>
@@ -28,7 +26,7 @@
   </div>
 
   <div>
-  <h2>Tomorrow:</h2>
+  <h2>tomorrow:</h2>
   <ul class="todo-list">
       <% @tomorrows_tasks.each do |task| %>
         <%= render task %>
@@ -37,7 +35,7 @@
   </div>
 
   <div>
-  <h2>At a later date:</h2>
+  <h2>at a later date:</h2>
   <ul class="todo-list">
       <% @later_tasks.each do |task| %>
         <%= render task %>

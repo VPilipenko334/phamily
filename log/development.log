@@ -2434,3 +2434,2548 @@ Processing by TasksController#index as HTML
 Completed 200 OK in 33ms (Views: 30.1ms | ActiveRecord: 1.1ms | Allocations: 8709)
 
 
+Started GET "/tasks" for ::1 at 2022-03-31 15:02:55 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 2.5ms | Allocations: 698)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 643)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 346)
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 27.5ms | Allocations: 5973)
+  Rendered layout layouts/application.html.erb (Duration: 34.1ms | Allocations: 7337)
+Completed 200 OK in 40ms (Views: 37.3ms | ActiveRecord: 0.8ms | Allocations: 8703)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:03:01 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 3.8ms | Allocations: 698)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 637)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 342)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 341)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 341)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 22.0ms | Allocations: 5931)
+  Rendered layout layouts/application.html.erb (Duration: 24.9ms | Allocations: 7295)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 1.1ms | Allocations: 8661)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:03:11 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 3.0ms | Allocations: 698)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 3.7ms | Allocations: 643)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.7ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 25.7ms | Allocations: 5970)
+  Rendered layout layouts/application.html.erb (Duration: 29.8ms | Allocations: 7334)
+Completed 200 OK in 36ms (Views: 32.3ms | ActiveRecord: 1.1ms | Allocations: 8700)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:03:35 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 2.0ms | Allocations: 688)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.9ms | Allocations: 643)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 346)
+  [1m[36mTask Load (1.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 23.3ms | Allocations: 5960)
+  Rendered layout layouts/application.html.erb (Duration: 28.6ms | Allocations: 7324)
+Completed 200 OK in 33ms (Views: 28.6ms | ActiveRecord: 2.5ms | Allocations: 8690)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:04:04 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.9ms | Allocations: 701)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 2.7ms | Allocations: 643)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 18.7ms | Allocations: 5955)
+  Rendered layout layouts/application.html.erb (Duration: 22.6ms | Allocations: 7319)
+Completed 200 OK in 30ms (Views: 26.9ms | ActiveRecord: 0.8ms | Allocations: 8685)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:04:17 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 2.8ms | Allocations: 700)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 2.6ms | Allocations: 643)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.9ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 2.0ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 22.2ms | Allocations: 5963)
+  Rendered layout layouts/application.html.erb (Duration: 52.4ms | Allocations: 12368)
+Completed 200 OK in 58ms (Views: 55.0ms | ActiveRecord: 1.0ms | Allocations: 13734)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:04:53 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 347)
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 15.1ms | Allocations: 4492)
+  Rendered layout layouts/application.html.erb (Duration: 34.3ms | Allocations: 9642)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 1.2ms | Allocations: 10192)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:05:00 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.3ms | Allocations: 283)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 2.0ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 18.1ms | Allocations: 4507)
+  Rendered layout layouts/application.html.erb (Duration: 38.7ms | Allocations: 9746)
+Completed 200 OK in 41ms (Views: 38.0ms | ActiveRecord: 1.8ms | Allocations: 10223)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:05:03 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"", "due_date"=>""}}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 2.7ms | Allocations: 1045)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 373)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 2.0ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 18.5ms | Allocations: 5304)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 6393)
+Completed 200 OK in 26ms (Views: 21.3ms | ActiveRecord: 0.9ms | Allocations: 7457)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:06:33 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 11.1ms | Allocations: 4957)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 12.9ms | Allocations: 5838)
+  Rendered layout layouts/application.html.erb (Duration: 13.1ms | Allocations: 5926)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.0ms | Allocations: 7200)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `due_date' for #<ActionView::Base:0x0000000002d208>):
+    26:     </ul>
+    27:   <% end %>
+    28: 
+    29:   <% if due_date.errors.any? %>
+    30:     <ul style="color: red">
+    31:       <% due_date.errors.each do |error| %>
+    32:         <li><%= error.full_message %></li>
+  
+app/views/tasks/_form.html.erb:29
+app/views/tasks/_form.html.erb:1
+app/views/tasks/index.html.erb:6
+Started GET "/tasks" for ::1 at 2022-03-31 15:07:27 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 6.1ms | Allocations: 2236)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 9.8ms | Allocations: 3117)
+  Rendered layout layouts/application.html.erb (Duration: 10.2ms | Allocations: 3205)
+Completed 500 Internal Server Error in 17ms (ActiveRecord: 0.0ms | Allocations: 4555)
+
+
+  
+ActionView::Template::Error (undefined method `errors' for nil:NilClass):
+    26:     </ul>
+    27:   <% end %>
+    28: 
+    29:     <% if task.due_date.errors.any? %>
+    30:     <ul style="color: red">
+    31:       <% task.due_date.errors.each do |error| %>
+    32:         <li><%= error.full_message %></li>
+  
+app/views/tasks/_form.html.erb:29
+app/views/tasks/_form.html.erb:1
+app/views/tasks/index.html.erb:6
+Started GET "/tasks" for ::1 at 2022-03-31 15:08:57 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.6ms | Allocations: 703)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 3.9ms | Allocations: 643)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 345)
+  [1m[36mTask Load (0.7ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 21.7ms | Allocations: 5976)
+  Rendered layout layouts/application.html.erb (Duration: 25.0ms | Allocations: 7352)
+Completed 200 OK in 29ms (Views: 26.1ms | ActiveRecord: 1.4ms | Allocations: 8719)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:11:16 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"", "due_date"=>""}}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 4.7ms | Allocations: 1441)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 2.4ms | Allocations: 662)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 43.3ms | Allocations: 6710)
+  Rendered layout layouts/application.html.erb (Duration: 52.1ms | Allocations: 8078)
+Completed 200 OK in 61ms (Views: 58.0ms | ActiveRecord: 0.9ms | Allocations: 10032)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:11:50 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"", "due_date"=>""}}
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tasks_controller.rb:11:in `create'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 7.5ms | Allocations: 1875)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 414)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 25.7ms | Allocations: 6407)
+  Rendered layout layouts/application.html.erb (Duration: 29.9ms | Allocations: 7571)
+Completed 200 OK in 69ms (Views: 33.1ms | ActiveRecord: 3.2ms | Allocations: 12566)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:11:58 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.3ms | Allocations: 299)
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 2.0ms | Allocations: 356)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 21.8ms | Allocations: 4542)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 5604)
+Completed 200 OK in 28ms (Views: 24.8ms | ActiveRecord: 1.6ms | Allocations: 6156)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:12:00 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"", "due_date"=>""}}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 3.3ms | Allocations: 1679)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 373)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 16.6ms | Allocations: 5908)
+  Rendered layout layouts/application.html.erb (Duration: 20.2ms | Allocations: 6961)
+Completed 200 OK in 24ms (Views: 20.6ms | ActiveRecord: 0.9ms | Allocations: 8034)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:12:39 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"", "due_date"=>""}}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 6.5ms | Allocations: 2126)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 6.8ms | Allocations: 662)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  [1m[36mTask Load (0.8ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 2.0ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 72.3ms | Allocations: 7398)
+  Rendered layout layouts/application.html.erb (Duration: 102.6ms | Allocations: 13417)
+Completed 200 OK in 112ms (Views: 108.0ms | ActiveRecord: 1.7ms | Allocations: 15281)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:12:52 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"", "due_date"=>""}}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 8.2ms | Allocations: 2126)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 5.3ms | Allocations: 662)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 346)
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 33.3ms | Allocations: 7397)
+  Rendered layout layouts/application.html.erb (Duration: 39.3ms | Allocations: 8804)
+Completed 200 OK in 48ms (Views: 43.5ms | ActiveRecord: 1.4ms | Allocations: 10774)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:13:05 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"", "due_date"=>""}}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 6.0ms | Allocations: 1679)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 373)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.7ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 23.5ms | Allocations: 5917)
+  Rendered layout layouts/application.html.erb (Duration: 46.2ms | Allocations: 11621)
+Completed 200 OK in 50ms (Views: 46.3ms | ActiveRecord: 0.9ms | Allocations: 12775)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:13:10 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"", "due_date"=>""}}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 6.2ms | Allocations: 1679)
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 2.6ms | Allocations: 373)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 23.0ms | Allocations: 5923)
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 7053)
+Completed 200 OK in 33ms (Views: 29.4ms | ActiveRecord: 1.1ms | Allocations: 8101)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:13:25 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 299)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 356)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 18.7ms | Allocations: 4533)
+  Rendered layout layouts/application.html.erb (Duration: 22.0ms | Allocations: 5630)
+Completed 200 OK in 24ms (Views: 21.9ms | ActiveRecord: 1.2ms | Allocations: 6107)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:13:46 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 15.6ms | Allocations: 4525)
+  Rendered layout layouts/application.html.erb (Duration: 34.0ms | Allocations: 9737)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.9ms | Allocations: 10214)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:14:29 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 346)
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 45.3ms | Allocations: 4513)
+  Rendered layout layouts/application.html.erb (Duration: 68.8ms | Allocations: 10661)
+Completed 200 OK in 72ms (Views: 68.8ms | ActiveRecord: 1.0ms | Allocations: 11138)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:14:45 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 346)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 14.5ms | Allocations: 4510)
+  Rendered layout layouts/application.html.erb (Duration: 42.9ms | Allocations: 10695)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 1.0ms | Allocations: 11172)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:14:51 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 12.1ms | Allocations: 4507)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 9756)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.8ms | Allocations: 10233)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:15:05 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.6ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 347)
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 4504)
+  Rendered layout layouts/application.html.erb (Duration: 51.9ms | Allocations: 9280)
+Completed 200 OK in 54ms (Views: 51.7ms | ActiveRecord: 1.1ms | Allocations: 9758)
+
+
+  
+ActionController::RoutingError (No route matches [GET] "/assets/application-1eb51a71a6b92ecf79f5cd343bbb11e5315766add430bdc182abde92904b0506.css"):
+  
+Started GET "/tasks" for ::1 at 2022-03-31 15:15:11 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 2.4ms | Allocations: 323)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 365)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 2.3ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 20.2ms | Allocations: 4650)
+  Rendered layout layouts/application.html.erb (Duration: 24.2ms | Allocations: 5784)
+Completed 200 OK in 27ms (Views: 24.2ms | ActiveRecord: 1.1ms | Allocations: 6362)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:15:25 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.9ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 4483)
+  Rendered layout layouts/application.html.erb (Duration: 29.4ms | Allocations: 9313)
+Completed 200 OK in 31ms (Views: 29.4ms | ActiveRecord: 0.7ms | Allocations: 9790)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:15:27 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"", "due_date"=>""}}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 5.3ms | Allocations: 1720)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 373)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 17.4ms | Allocations: 5961)
+  Rendered layout layouts/application.html.erb (Duration: 21.4ms | Allocations: 7014)
+Completed 200 OK in 25ms (Views: 21.4ms | ActiveRecord: 0.8ms | Allocations: 8088)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:15:30 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 347)
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 346)
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 345)
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 10.9ms | Allocations: 4507)
+  Rendered layout layouts/application.html.erb (Duration: 13.3ms | Allocations: 5526)
+Completed 200 OK in 16ms (Views: 13.4ms | ActiveRecord: 0.6ms | Allocations: 6003)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:16:11 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.9ms | Allocations: 701)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 2.3ms | Allocations: 643)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 346)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 19.1ms | Allocations: 5988)
+  Rendered layout layouts/application.html.erb (Duration: 43.4ms | Allocations: 11701)
+Completed 200 OK in 52ms (Views: 49.1ms | ActiveRecord: 1.1ms | Allocations: 12988)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:16:22 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 3.4ms | Allocations: 701)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 3.0ms | Allocations: 643)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 24.5ms | Allocations: 5973)
+  Rendered layout layouts/application.html.erb (Duration: 47.0ms | Allocations: 11188)
+Completed 200 OK in 53ms (Views: 49.4ms | ActiveRecord: 1.1ms | Allocations: 12554)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:16:36 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 2.2ms | Allocations: 700)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 2.5ms | Allocations: 643)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 17.5ms | Allocations: 5969)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 7337)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 0.9ms | Allocations: 8703)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:16:40 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"", "due_date"=>""}}
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 4.8ms | Allocations: 2125)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 2.9ms | Allocations: 662)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 24.5ms | Allocations: 7387)
+  Rendered layout layouts/application.html.erb (Duration: 28.1ms | Allocations: 8744)
+Completed 200 OK in 34ms (Views: 30.2ms | ActiveRecord: 1.0ms | Allocations: 10706)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:16:42 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 299)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 356)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 14.4ms | Allocations: 4544)
+  Rendered layout layouts/application.html.erb (Duration: 16.5ms | Allocations: 5606)
+Completed 200 OK in 18ms (Views: 16.4ms | ActiveRecord: 0.9ms | Allocations: 6158)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:16:52 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 283)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 5.0ms | Allocations: 347)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 2.3ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 43.9ms | Allocations: 4516)
+  Rendered layout layouts/application.html.erb (Duration: 47.9ms | Allocations: 5535)
+Completed 200 OK in 51ms (Views: 48.1ms | ActiveRecord: 1.1ms | Allocations: 6012)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:16:54 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.8ms | Allocations: 701)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 643)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 346)
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 14.1ms | Allocations: 5976)
+  Rendered layout layouts/application.html.erb (Duration: 17.8ms | Allocations: 7344)
+Completed 200 OK in 22ms (Views: 19.7ms | ActiveRecord: 0.7ms | Allocations: 8633)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:16:58 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.7ms | Allocations: 700)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 2.2ms | Allocations: 643)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 29.3ms | Allocations: 5963)
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 7342)
+Completed 200 OK in 40ms (Views: 37.0ms | ActiveRecord: 0.9ms | Allocations: 8709)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:17:12 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 3.4ms | Allocations: 700)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.9ms | Allocations: 643)
+  [1m[36mTask Load (1.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 20.5ms | Allocations: 5964)
+  Rendered layout layouts/application.html.erb (Duration: 47.6ms | Allocations: 11661)
+Completed 200 OK in 53ms (Views: 47.9ms | ActiveRecord: 1.9ms | Allocations: 13027)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:17:14 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.0ms | Allocations: 283)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 347)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 2.0ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 18.7ms | Allocations: 4510)
+  Rendered layout layouts/application.html.erb (Duration: 22.9ms | Allocations: 5529)
+Completed 200 OK in 25ms (Views: 23.0ms | ActiveRecord: 0.9ms | Allocations: 6079)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:17:15 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 4504)
+  Rendered layout layouts/application.html.erb (Duration: 15.0ms | Allocations: 5559)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.8ms | Allocations: 6036)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:17:19 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.9ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 16.1ms | Allocations: 4537)
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 10706)
+Completed 200 OK in 42ms (Views: 40.0ms | ActiveRecord: 0.9ms | Allocations: 11183)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:17:25 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.7ms | Allocations: 347)
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 2.2ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 21.0ms | Allocations: 4519)
+  Rendered layout layouts/application.html.erb (Duration: 38.1ms | Allocations: 9701)
+Completed 200 OK in 41ms (Views: 37.6ms | ActiveRecord: 1.5ms | Allocations: 10178)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:17:28 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 283)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 347)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 18.2ms | Allocations: 4510)
+  Rendered layout layouts/application.html.erb (Duration: 23.9ms | Allocations: 6193)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 1.1ms | Allocations: 6670)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:17:34 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.9ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 4516)
+  Rendered layout layouts/application.html.erb (Duration: 13.9ms | Allocations: 5535)
+Completed 200 OK in 17ms (Views: 14.1ms | ActiveRecord: 0.7ms | Allocations: 6012)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:17:35 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 4501)
+  Rendered layout layouts/application.html.erb (Duration: 35.2ms | Allocations: 11111)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.8ms | Allocations: 11588)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:17:42 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 4516)
+  Rendered layout layouts/application.html.erb (Duration: 31.6ms | Allocations: 10205)
+Completed 200 OK in 33ms (Views: 31.7ms | ActiveRecord: 0.9ms | Allocations: 10682)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:17:56 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.1ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 14.7ms | Allocations: 4504)
+  Rendered layout layouts/application.html.erb (Duration: 34.2ms | Allocations: 10629)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.8ms | Allocations: 11106)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:18:03 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 13.0ms | Allocations: 4498)
+  Rendered layout layouts/application.html.erb (Duration: 34.8ms | Allocations: 9712)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.8ms | Allocations: 10189)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:18:08 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 2.1ms | Allocations: 346)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.7ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 16.9ms | Allocations: 4510)
+  Rendered layout layouts/application.html.erb (Duration: 22.1ms | Allocations: 5570)
+Completed 200 OK in 25ms (Views: 22.1ms | ActiveRecord: 1.2ms | Allocations: 6047)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:18:45 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.2ms | Allocations: 283)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 2.2ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 20.1ms | Allocations: 4504)
+  Rendered layout layouts/application.html.erb (Duration: 47.3ms | Allocations: 9727)
+Completed 200 OK in 50ms (Views: 47.8ms | ActiveRecord: 1.2ms | Allocations: 10204)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:19:07 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.9ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:15
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:24
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:33
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:42
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 13.5ms | Allocations: 4504)
+  Rendered layout layouts/application.html.erb (Duration: 34.7ms | Allocations: 10166)
+Completed 200 OK in 37ms (Views: 34.7ms | ActiveRecord: 0.8ms | Allocations: 10643)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:19:26 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 2.8ms | Allocations: 700)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 643)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.7ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 20.9ms | Allocations: 5973)
+  Rendered layout layouts/application.html.erb (Duration: 26.1ms | Allocations: 7348)
+Completed 200 OK in 32ms (Views: 29.7ms | ActiveRecord: 1.0ms | Allocations: 8642)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:22:19 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 4.1ms | Allocations: 700)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 2.9ms | Allocations: 643)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 2.2ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 2.5ms | Allocations: 345)
+  [1m[36mTask Load (0.9ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 38.9ms | Allocations: 5974)
+  Rendered layout layouts/application.html.erb (Duration: 70.0ms | Allocations: 13977)
+Completed 200 OK in 91ms (Views: 84.0ms | ActiveRecord: 1.7ms | Allocations: 15343)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:22:40 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.9ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 15.8ms | Allocations: 4513)
+  Rendered layout layouts/application.html.erb (Duration: 37.2ms | Allocations: 10252)
+Completed 200 OK in 39ms (Views: 37.0ms | ActiveRecord: 0.9ms | Allocations: 10802)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:22:47 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 14.2ms | Allocations: 4522)
+  Rendered layout layouts/application.html.erb (Duration: 32.7ms | Allocations: 11144)
+Completed 200 OK in 34ms (Views: 32.5ms | ActiveRecord: 0.9ms | Allocations: 11621)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:23:20 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 2.5ms | Allocations: 700)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 3.0ms | Allocations: 643)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 23.6ms | Allocations: 5972)
+  Rendered layout layouts/application.html.erb (Duration: 30.7ms | Allocations: 7340)
+Completed 200 OK in 35ms (Views: 32.4ms | ActiveRecord: 1.1ms | Allocations: 8633)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:23:35 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 283)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 347)
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 4516)
+  Rendered layout layouts/application.html.erb (Duration: 28.3ms | Allocations: 10284)
+Completed 200 OK in 31ms (Views: 28.8ms | ActiveRecord: 0.9ms | Allocations: 10834)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:23:39 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 2.0ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 2.5ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 22.4ms | Allocations: 4510)
+  Rendered layout layouts/application.html.erb (Duration: 45.8ms | Allocations: 9739)
+Completed 200 OK in 48ms (Views: 45.4ms | ActiveRecord: 1.2ms | Allocations: 10216)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:23:48 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.9ms | Allocations: 347)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 2.6ms | Allocations: 346)
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 2.0ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 21.7ms | Allocations: 4498)
+  Rendered layout layouts/application.html.erb (Duration: 28.5ms | Allocations: 6211)
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 1.5ms | Allocations: 6688)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:24:43 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.2ms | Allocations: 283)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 40.9ms | Allocations: 4504)
+  Rendered layout layouts/application.html.erb (Duration: 49.4ms | Allocations: 5564)
+Completed 200 OK in 52ms (Views: 49.6ms | ActiveRecord: 0.9ms | Allocations: 6041)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:25:13 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.9ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 14.2ms | Allocations: 4498)
+  Rendered layout layouts/application.html.erb (Duration: 41.8ms | Allocations: 10208)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.9ms | Allocations: 10685)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:25:27 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.6ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 13.4ms | Allocations: 4501)
+  Rendered layout layouts/application.html.erb (Duration: 40.3ms | Allocations: 10671)
+Completed 200 OK in 43ms (Views: 40.6ms | ActiveRecord: 0.7ms | Allocations: 11148)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:25:41 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.1ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 347)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 2.1ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 17.1ms | Allocations: 4510)
+  Rendered layout layouts/application.html.erb (Duration: 20.3ms | Allocations: 5570)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 0.9ms | Allocations: 6047)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:26:11 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 2.0ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 17.9ms | Allocations: 4516)
+  Rendered layout layouts/application.html.erb (Duration: 21.8ms | Allocations: 6193)
+Completed 200 OK in 25ms (Views: 21.5ms | ActiveRecord: 1.1ms | Allocations: 6670)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:26:19 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 346)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 14.9ms | Allocations: 4495)
+  Rendered layout layouts/application.html.erb (Duration: 43.7ms | Allocations: 10681)
+Completed 200 OK in 46ms (Views: 43.7ms | ActiveRecord: 0.9ms | Allocations: 11158)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:26:26 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 2.3ms | Allocations: 283)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 2.0ms | Allocations: 347)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 346)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 22.8ms | Allocations: 4510)
+  Rendered layout layouts/application.html.erb (Duration: 48.7ms | Allocations: 9741)
+Completed 200 OK in 52ms (Views: 48.5ms | ActiveRecord: 1.3ms | Allocations: 10218)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:26:33 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.2ms | Allocations: 283)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 347)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 346)
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.7ms | Allocations: 345)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 22.7ms | Allocations: 4522)
+  Rendered layout layouts/application.html.erb (Duration: 40.6ms | Allocations: 6242)
+Completed 200 OK in 43ms (Views: 39.9ms | ActiveRecord: 1.6ms | Allocations: 6720)
+
+
+Started POST "/tasks/17" for ::1 at 2022-03-31 15:26:36 -0400
+Processing by TasksController#update as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"completed"=>"1", "title"=>"michael madsen is golden boi", "due_date"=>"2022-03-31"}, "id"=>"17"}
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:23:in `update'
+  [1m[36mTask Update (0.7ms)[0m  [1m[33mUPDATE "tasks" SET "completed" = ?, "updated_at" = ? WHERE "tasks"."id" = ?[0m  [["completed", 1], ["updated_at", "2022-03-31 19:26:36.670399"], ["id", 17]]
+  ↳ app/controllers/tasks_controller.rb:23:in `update'
+  [1m[36mTRANSACTION (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:23:in `update'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 24ms (ActiveRecord: 6.6ms | Allocations: 3298)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:26:36 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.1ms | Allocations: 283)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.7ms | Allocations: 347)
+  [1m[36mTask Load (0.6ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 349)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 18.7ms | Allocations: 4519)
+  Rendered layout layouts/application.html.erb (Duration: 25.3ms | Allocations: 6197)
+Completed 200 OK in 28ms (Views: 25.1ms | ActiveRecord: 1.6ms | Allocations: 6675)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:26:40 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 349)
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.6ms | Allocations: 345)
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.5ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 11.1ms | Allocations: 4501)
+  Rendered layout layouts/application.html.erb (Duration: 12.5ms | Allocations: 5520)
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.7ms | Allocations: 5997)
+
+
+Started POST "/tasks/17/destroy" for ::1 at 2022-03-31 15:26:43 -0400
+Processing by TasksController#destroy as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTask Destroy (0.4ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = ?[0m  [["id", 17]]
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 9ms (ActiveRecord: 2.5ms | Allocations: 2146)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:26:43 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.1ms | Allocations: 283)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 2.3ms | Allocations: 347)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 16.8ms | Allocations: 4079)
+  Rendered layout layouts/application.html.erb (Duration: 19.3ms | Allocations: 5098)
+Completed 200 OK in 22ms (Views: 19.3ms | ActiveRecord: 1.1ms | Allocations: 5575)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:27:09 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.9ms | Allocations: 283)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 13.2ms | Allocations: 4085)
+  Rendered layout layouts/application.html.erb (Duration: 38.6ms | Allocations: 10272)
+Completed 200 OK in 41ms (Views: 38.4ms | ActiveRecord: 1.0ms | Allocations: 10749)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:27:12 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 12.2ms | Allocations: 4067)
+  Rendered layout layouts/application.html.erb (Duration: 16.7ms | Allocations: 5127)
+Completed 200 OK in 19ms (Views: 16.8ms | ActiveRecord: 0.8ms | Allocations: 5604)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:27:39 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"hello ", "due_date"=>"2022-03-21"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:13:in `create'
+  [1m[36mTask Create (1.1ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "completed", "created_at", "updated_at", "due_date") VALUES (?, ?, ?, ?, ?)[0m  [["title", "hello "], ["completed", nil], ["created_at", "2022-03-31 19:27:39.657070"], ["updated_at", "2022-03-31 19:27:39.657070"], ["due_date", "2022-03-21"]]
+  ↳ app/controllers/tasks_controller.rb:13:in `create'
+  [1m[36mTRANSACTION (5.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:13:in `create'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 12ms (ActiveRecord: 6.6ms | Allocations: 2031)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:27:39 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.2ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.7ms | Allocations: 347)
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 14.9ms | Allocations: 4487)
+  Rendered layout layouts/application.html.erb (Duration: 19.4ms | Allocations: 6159)
+Completed 200 OK in 22ms (Views: 20.3ms | ActiveRecord: 0.8ms | Allocations: 6636)
+
+
+Started POST "/tasks" for ::1 at 2022-03-31 15:28:01 -0400
+Processing by TasksController#create as HTML
+  Parameters: {"authenticity_token"=>"[FILTERED]", "task"=>{"title"=>"hello x2", "due_date"=>"2022-03-31"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:13:in `create'
+  [1m[36mTask Create (0.6ms)[0m  [1m[32mINSERT INTO "tasks" ("title", "completed", "created_at", "updated_at", "due_date") VALUES (?, ?, ?, ?, ?)[0m  [["title", "hello x2"], ["completed", nil], ["created_at", "2022-03-31 19:28:01.378169"], ["updated_at", "2022-03-31 19:28:01.378169"], ["due_date", "2022-03-31"]]
+  ↳ app/controllers/tasks_controller.rb:13:in `create'
+  [1m[36mTRANSACTION (1.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:13:in `create'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 8ms (ActiveRecord: 1.9ms | Allocations: 2009)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:28:01 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.2ms | Allocations: 283)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 347)
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 14.9ms | Allocations: 4917)
+  Rendered layout layouts/application.html.erb (Duration: 16.9ms | Allocations: 5942)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.8ms | Allocations: 6419)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:28:15 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.2ms | Allocations: 283)
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 347)
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 18.1ms | Allocations: 4932)
+  Rendered layout layouts/application.html.erb (Duration: 22.3ms | Allocations: 5992)
+Completed 200 OK in 25ms (Views: 22.3ms | ActiveRecord: 1.1ms | Allocations: 6469)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:28:37 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.1ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 347)
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 15.3ms | Allocations: 4938)
+  Rendered layout layouts/application.html.erb (Duration: 42.8ms | Allocations: 11151)
+Completed 200 OK in 44ms (Views: 42.7ms | ActiveRecord: 0.8ms | Allocations: 11628)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:28:54 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.0ms | Allocations: 283)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 347)
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.7ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 17.5ms | Allocations: 4950)
+  Rendered layout layouts/application.html.erb (Duration: 21.3ms | Allocations: 6046)
+Completed 200 OK in 23ms (Views: 21.1ms | ActiveRecord: 1.0ms | Allocations: 6523)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:28:58 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 347)
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 16.0ms | Allocations: 4926)
+  Rendered layout layouts/application.html.erb (Duration: 20.9ms | Allocations: 7106)
+Completed 200 OK in 23ms (Views: 20.8ms | ActiveRecord: 1.1ms | Allocations: 7583)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:29:33 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 347)
+  Rendered tasks/_task.html.erb (Duration: 0.6ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 4932)
+  Rendered layout layouts/application.html.erb (Duration: 15.5ms | Allocations: 5951)
+Completed 200 OK in 18ms (Views: 15.6ms | ActiveRecord: 0.7ms | Allocations: 6428)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:30:02 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 1.4ms | Allocations: 1396)
+  Rendered layout layouts/application.html.erb (Duration: 1.8ms | Allocations: 1485)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms | Allocations: 2765)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p style="color: yellow"><%= notice %></p>
+
+<section class="todoapp">
+  
+  <header class="header">
+    <%= render "form", task: @task || Task.new %>
+  </header>
+
+  <div>
+
+  <h2>overdue:</h2>
+  <ul class="todo-list">
+      <% @overdue_tasks.each do |overdue_task| %>
+        <%= render overdue_task %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  <h2>today:</h2>
+  <ul class="todo-list">
+      <% 'task:' @todays_tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  <h2>tomorrow:</h2>
+  <ul class="todo-list">
+      <% @tomorrows_tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  <h2>at a later date:</h2>
+  <ul class="todo-list">
+      <% @later_tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </div>
+
+
+</section>
+):
+1:    <p style="color: yellow"><%= notice %></p>
+2:    
+3:    <section class="todoapp">
+4:      
+5:      <header class="header">
+6:        <%= render "form", task: @task || Task.new %>
+7:      </header>
+8:    
+9:      <div>
+10:    
+11:      <h2>overdue:</h2>
+12:      <ul class="todo-list">
+13:          <% @overdue_tasks.each do |overdue_task| %>
+14:            <%= render overdue_task %>
+15:          <% end %>
+16:        </ul>
+17:      </div>
+18:    
+19:      <div>
+20:      <h2>today:</h2>
+21:      <ul class="todo-list">
+22:          <% 'task:' @todays_tasks.each do |task| %>
+23:            <%= render task %>
+24:          <% end %>
+25:        </ul>
+26:      </div>
+27:    
+28:      <div>
+29:      <h2>tomorrow:</h2>
+30:      <ul class="todo-list">
+31:          <% @tomorrows_tasks.each do |task| %>
+32:            <%= render task %>
+33:          <% end %>
+34:        </ul>
+35:      </div>
+36:    
+37:      <div>
+38:      <h2>at a later date:</h2>
+39:      <ul class="todo-list">
+40:          <% @later_tasks.each do |task| %>
+41:            <%= render task %>
+42:          <% end %>
+43:        </ul>
+44:      </div>
+45:    
+46:    
+47:    </section>
+  
+app/views/tasks/index.html.erb:22: syntax error, unexpected instance variable, expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected instance variable, expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected instance variable, expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected instance variable, expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected instance variable, expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected instance variable, expecting `end'
+Started GET "/tasks" for ::1 at 2022-03-31 15:30:10 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 1.7ms | Allocations: 1388)
+  Rendered layout layouts/application.html.erb (Duration: 1.9ms | Allocations: 1477)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms | Allocations: 2828)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p style="color: yellow"><%= notice %></p>
+
+<section class="todoapp">
+  
+  <header class="header">
+    <%= render "form", task: @task || Task.new %>
+  </header>
+
+  <div>
+
+  <h2>overdue:</h2>
+  <ul class="todo-list">
+      <% @overdue_tasks.each do |overdue_task| %>
+        <%= render overdue_task %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  <h2>today:</h2>
+  <ul class="todo-list">
+      <% task: @todays_tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  <h2>tomorrow:</h2>
+  <ul class="todo-list">
+      <% @tomorrows_tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  <h2>at a later date:</h2>
+  <ul class="todo-list">
+      <% @later_tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </div>
+
+
+</section>
+):
+1:    <p style="color: yellow"><%= notice %></p>
+2:    
+3:    <section class="todoapp">
+4:      
+5:      <header class="header">
+6:        <%= render "form", task: @task || Task.new %>
+7:      </header>
+8:    
+9:      <div>
+10:    
+11:      <h2>overdue:</h2>
+12:      <ul class="todo-list">
+13:          <% @overdue_tasks.each do |overdue_task| %>
+14:            <%= render overdue_task %>
+15:          <% end %>
+16:        </ul>
+17:      </div>
+18:    
+19:      <div>
+20:      <h2>today:</h2>
+21:      <ul class="todo-list">
+22:          <% task: @todays_tasks.each do |task| %>
+23:            <%= render task %>
+24:          <% end %>
+25:        </ul>
+26:      </div>
+27:    
+28:      <div>
+29:      <h2>tomorrow:</h2>
+30:      <ul class="todo-list">
+31:          <% @tomorrows_tasks.each do |task| %>
+32:            <%= render task %>
+33:          <% end %>
+34:        </ul>
+35:      </div>
+36:    
+37:      <div>
+38:      <h2>at a later date:</h2>
+39:      <ul class="todo-list">
+40:          <% @later_tasks.each do |task| %>
+41:            <%= render task %>
+42:          <% end %>
+43:        </ul>
+44:      </div>
+45:    
+46:    
+47:    </section>
+  
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+Started GET "/tasks" for ::1 at 2022-03-31 15:30:18 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/index.html.erb within layouts/application (Duration: 1.6ms | Allocations: 1388)
+  Rendered layout layouts/application.html.erb (Duration: 2.0ms | Allocations: 1477)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms | Allocations: 2828)
+
+
+  
+ActionView::SyntaxErrorInTemplate (Encountered a syntax error while rendering template: check <p style="color: yellow"><%= notice %></p>
+
+<section class="todoapp">
+  
+  <header class="header">
+    <%= render "form", task: @task || Task.new %>
+  </header>
+
+  <div>
+
+  <h2>overdue:</h2>
+  <ul class="todo-list">
+      <% @overdue_tasks.each do |overdue_task| %>
+        <%= render overdue_task %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  <h2>today:</h2>
+  <ul class="todo-list">
+      <% task: @todays_tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  <h2>tomorrow:</h2>
+  <ul class="todo-list">
+      <% @tomorrows_tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </div>
+
+  <div>
+  <h2>at a later date:</h2>
+  <ul class="todo-list">
+      <% @later_tasks.each do |task| %>
+        <%= render task %>
+      <% end %>
+    </ul>
+  </div>
+
+
+</section>
+):
+1:    <p style="color: yellow"><%= notice %></p>
+2:    
+3:    <section class="todoapp">
+4:      
+5:      <header class="header">
+6:        <%= render "form", task: @task || Task.new %>
+7:      </header>
+8:    
+9:      <div>
+10:    
+11:      <h2>overdue:</h2>
+12:      <ul class="todo-list">
+13:          <% @overdue_tasks.each do |overdue_task| %>
+14:            <%= render overdue_task %>
+15:          <% end %>
+16:        </ul>
+17:      </div>
+18:    
+19:      <div>
+20:      <h2>today:</h2>
+21:      <ul class="todo-list">
+22:          <% task: @todays_tasks.each do |task| %>
+23:            <%= render task %>
+24:          <% end %>
+25:        </ul>
+26:      </div>
+27:    
+28:      <div>
+29:      <h2>tomorrow:</h2>
+30:      <ul class="todo-list">
+31:          <% @tomorrows_tasks.each do |task| %>
+32:            <%= render task %>
+33:          <% end %>
+34:        </ul>
+35:      </div>
+36:    
+37:      <div>
+38:      <h2>at a later date:</h2>
+39:      <ul class="todo-list">
+40:          <% @later_tasks.each do |task| %>
+41:            <%= render task %>
+42:          <% end %>
+43:        </ul>
+44:      </div>
+45:    
+46:    
+47:    </section>
+  
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+app/views/tasks/index.html.erb:22: syntax error, unexpected ':', expecting `end'
+Started GET "/tasks" for ::1 at 2022-03-31 15:30:25 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 4.2ms | Allocations: 700)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 3.8ms | Allocations: 643)
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 2.4ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 2.6ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 34.9ms | Allocations: 6389)
+  Rendered layout layouts/application.html.erb (Duration: 40.0ms | Allocations: 7765)
+Completed 200 OK in 46ms (Views: 42.0ms | ActiveRecord: 1.4ms | Allocations: 9134)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:30:32 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.6ms | Allocations: 700)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 643)
+  Rendered tasks/_task.html.erb (Duration: 0.5ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 6384)
+  Rendered layout layouts/application.html.erb (Duration: 17.5ms | Allocations: 7752)
+Completed 200 OK in 22ms (Views: 19.4ms | ActiveRecord: 0.7ms | Allocations: 9118)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:31:40 -0400
+Processing by TasksController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tasks_controller.rb:40:in `set_tasks'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 2.6ms | Allocations: 730)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < 'March 31, 2022') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 2.7ms | Allocations: 651)
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 345)
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.6ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 51.1ms | Allocations: 9139)
+  Rendered layout layouts/application.html.erb (Duration: 54.2ms | Allocations: 10516)
+Completed 200 OK in 69ms (Views: 55.7ms | ActiveRecord: 2.4ms | Allocations: 13820)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:34:17 -0400
+Processing by TasksController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tasks_controller.rb:40:in `set_tasks'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.0ms | Allocations: 421)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '31/03/2022') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 385)
+  Rendered tasks/_task.html.erb (Duration: 0.6ms | Allocations: 345)
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 345)
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 3.3ms | Allocations: 345)
+  [1m[36mTask Load (0.5ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 54.9ms | Allocations: 7933)
+  Rendered layout layouts/application.html.erb (Duration: 59.0ms | Allocations: 9109)
+Completed 200 OK in 75ms (Views: 61.3ms | ActiveRecord: 2.3ms | Allocations: 12070)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:34:27 -0400
+Processing by TasksController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tasks_controller.rb:40:in `set_tasks'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.5ms | Allocations: 421)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 385)
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 20.4ms | Allocations: 6648)
+  Rendered layout layouts/application.html.erb (Duration: 24.4ms | Allocations: 7824)
+Completed 200 OK in 38ms (Views: 25.6ms | ActiveRecord: 2.2ms | Allocations: 10777)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:35:33 -0400
+Processing by TasksController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tasks_controller.rb:40:in `set_tasks'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.2ms | Allocations: 421)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-09-03') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 385)
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 345)
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  Rendered tasks/_task.html.erb (Duration: 0.7ms | Allocations: 345)
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 23.8ms | Allocations: 7918)
+  Rendered layout layouts/application.html.erb (Duration: 27.2ms | Allocations: 9102)
+Completed 200 OK in 40ms (Views: 29.4ms | ActiveRecord: 2.0ms | Allocations: 12091)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:35:41 -0400
+Processing by TasksController#index as HTML
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  ↳ app/controllers/tasks_controller.rb:40:in `set_tasks'
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.0ms | Allocations: 421)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.4ms | Allocations: 385)
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.1ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.8ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 22.5ms | Allocations: 6712)
+  Rendered layout layouts/application.html.erb (Duration: 25.1ms | Allocations: 7896)
+Completed 200 OK in 33ms (Views: 25.2ms | ActiveRecord: 2.0ms | Allocations: 10854)
+
+
+Started POST "/tasks/16/destroy" for ::1 at 2022-03-31 15:36:15 -0400
+Processing by TasksController#destroy as HTML
+  Parameters: {"id"=>"16"}
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTask Destroy (0.8ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = ?[0m  [["id", 16]]
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTRANSACTION (3.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 15ms (ActiveRecord: 4.4ms | Allocations: 2815)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:36:15 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  Rendered tasks/_task.html.erb (Duration: 1.8ms | Allocations: 347)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 15.0ms | Allocations: 4506)
+  Rendered layout layouts/application.html.erb (Duration: 17.4ms | Allocations: 5525)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 1.1ms | Allocations: 6065)
+
+
+Started POST "/tasks/22/destroy" for ::1 at 2022-03-31 15:36:16 -0400
+Processing by TasksController#destroy as HTML
+  Parameters: {"id"=>"22"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 22], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTask Destroy (0.5ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = ?[0m  [["id", 22]]
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 8ms (ActiveRecord: 2.6ms | Allocations: 2113)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:36:16 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.7ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  Rendered tasks/_task.html.erb (Duration: 1.3ms | Allocations: 347)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 345)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 0.9ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 12.3ms | Allocations: 4067)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 5086)
+Completed 200 OK in 16ms (Views: 14.1ms | ActiveRecord: 1.0ms | Allocations: 5563)
+
+
+Started POST "/tasks/23/destroy" for ::1 at 2022-03-31 15:36:18 -0400
+Processing by TasksController#destroy as HTML
+  Parameters: {"id"=>"23"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTask Destroy (0.5ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = ?[0m  [["id", 23]]
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 7ms (ActiveRecord: 2.5ms | Allocations: 2113)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:36:19 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 0.8ms | Allocations: 283)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  Rendered tasks/_task.html.erb (Duration: 1.2ms | Allocations: 347)
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.5ms | Allocations: 345)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 12.5ms | Allocations: 3637)
+  Rendered layout layouts/application.html.erb (Duration: 14.8ms | Allocations: 4656)
+Completed 200 OK in 18ms (Views: 15.4ms | ActiveRecord: 0.9ms | Allocations: 5133)
+
+
+Started POST "/tasks/20/destroy" for ::1 at 2022-03-31 15:36:20 -0400
+Processing by TasksController#destroy as HTML
+  Parameters: {"id"=>"20"}
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTask Destroy (0.7ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = ?[0m  [["id", 20]]
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTRANSACTION (1.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 9ms (ActiveRecord: 2.6ms | Allocations: 2113)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:36:20 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.3ms | Allocations: 283)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/_task.html.erb (Duration: 1.0ms | Allocations: 347)
+  Rendered tasks/index.html.erb within layouts/application (Duration: 11.8ms | Allocations: 3198)
+  Rendered layout layouts/application.html.erb (Duration: 14.3ms | Allocations: 4217)
+Completed 200 OK in 16ms (Views: 14.2ms | ActiveRecord: 1.1ms | Allocations: 4694)
+
+
+Started POST "/tasks/21/destroy" for ::1 at 2022-03-31 15:36:22 -0400
+Processing by TasksController#destroy as HTML
+  Parameters: {"id"=>"21"}
+  [1m[36mTask Load (0.1ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE "tasks"."id" = ? LIMIT ?[0m  [["id", 21], ["LIMIT", 1]]
+  ↳ app/controllers/tasks_controller.rb:36:in `set_task'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTask Destroy (0.6ms)[0m  [1m[31mDELETE FROM "tasks" WHERE "tasks"."id" = ?[0m  [["id", 21]]
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+  [1m[36mTRANSACTION (1.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/tasks_controller.rb:29:in `destroy'
+Redirected to http://localhost:3000/tasks
+Completed 302 Found in 10ms (ActiveRecord: 2.7ms | Allocations: 2113)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:36:22 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 2.1ms | Allocations: 283)
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/index.html.erb within layouts/application (Duration: 12.6ms | Allocations: 2759)
+  Rendered layout layouts/application.html.erb (Duration: 15.7ms | Allocations: 3778)
+Completed 200 OK in 20ms (Views: 17.0ms | ActiveRecord: 1.2ms | Allocations: 4255)
+
+
+Started GET "/tasks" for ::1 at 2022-03-31 15:37:12 -0400
+Processing by TasksController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering tasks/index.html.erb within layouts/application
+  Rendered tasks/_form.html.erb (Duration: 1.4ms | Allocations: 283)
+  [1m[36mTask Load (0.4ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date < '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:13
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-03-31') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:22
+  [1m[36mTask Load (0.2ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date = '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:31
+  [1m[36mTask Load (0.3ms)[0m  [1m[34mSELECT "tasks".* FROM "tasks" WHERE (due_date > '2022-04-01') ORDER BY "tasks"."due_date" ASC[0m
+  ↳ app/views/tasks/index.html.erb:40
+  Rendered tasks/index.html.erb within layouts/application (Duration: 8.8ms | Allocations: 2747)
+  Rendered layout layouts/application.html.erb (Duration: 48.0ms | Allocations: 9462)
+Completed 200 OK in 52ms (Views: 49.0ms | ActiveRecord: 1.1ms | Allocations: 9939)
+
+

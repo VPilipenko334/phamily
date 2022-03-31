@@ -12,10 +12,10 @@
       autofocus: true, autocomplete: 'off' %>
   </div>
 
-  <button> 
-     button 
-  </button>
 
+  <button class="submit-button"> 
+     add a task!
+  </button>
 
   <% if task.errors.any? %>
     <ul style="color: red">
@@ -24,5 +24,6 @@
       <% end %>
     </ul>
   <% end %>
+
     
 <% end %>
