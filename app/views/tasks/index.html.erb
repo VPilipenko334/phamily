@@ -8,10 +8,14 @@
 
   <div>
 
-  <h2>overdue:</h2>
   <ul class="todo-list">
       <% @overdue_tasks.each do |overdue_task| %>
-        <%= render overdue_task %>
+        <% if @overdue_tasks.length == 0 %>
+          <%= render nil  %>
+        <% else %>
+          <h2>overdue:</h2>
+          <%= render overdue_task %>
+        <% end %>
       <% end %>
     </ul>
   </div>
